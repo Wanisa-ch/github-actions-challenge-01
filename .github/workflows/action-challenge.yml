@@ -11,5 +11,4 @@ jobs:
       - run: npm install -g bats
       - run: bats -v
       - run: 
-          using: 'node14'
           main: 'app.js'
